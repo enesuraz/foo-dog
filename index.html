@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="With a dedication to innovation,
+    sustainability, and customer satisfaction, we strive to be your
+    trusted partner in caring for your furry family members. Join us on
+    our journey to make a difference in the lives of dogs everywhere."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      defer
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>FooDog &mdash; Care your friend</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/logo.png" alt="Dog food logo" class="logo" />
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li><a href="#about" class="navigation-link">About</a></li>
+          <li><a href="#features" class="navigation-link">Features</a></li>
+          <li><a href="#reviews" class="navigation-link">Reviews</a></li>
+          <li><a href="#contact" class="navigation-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-nav-menu" id="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <button class="btn-nav-back" id="close">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-text-container">
+            <h1 class="primary-title mb-sm">
+              Discover Nutritious Options for Your Furry Friend
+            </h1>
+            <p class="paragraph mb-md">
+              Founded with the vision of creating premium-quality dog food that
+              promotes health, happiness, and longevity, we take pride in
+              sourcing only the finest ingredients and crafting recipes that
+              meet the highest standards of nutrition and taste.
+            </p>
+            <a href="#" class="btn">Explore Products</a>
+            <div class="hero-details mt-lg">
+              <div class="hero-detail">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="hero-detail-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                  />
+                </svg>
+
+                <span class="hero-detail-text"
+                  >Exclusive Deals and Discounts</span
+                >
+              </div>
+              <div class="hero-detail">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="hero-detail-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+
+                <span class="hero-detail-text"
+                  >Your Dog's Health and Happiness</span
+                >
+              </div>
+              <div class="hero-detail">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="hero-detail-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                  />
+                </svg>
+
+                <span class="hero-detail-text"
+                  >Selection of High-Quality Dog Food Products</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hero-photo-container">
+            <img
+              src="assets/hero.webp"
+              alt="Dogs are in the enjoyable moment"
+              class="hero-photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-image">
+          <img
+            src="assets/dog-about.webp"
+            alt="Dog and his friend in cliff edge"
+            class="about-photo"
+          />
+        </div>
+
+        <div class="container">
+          <h3 class="tertiary-title tx-center mt-lg mb-sm">Who We Are?</h3>
+          <p class="paragraph paragraph--secondary">
+            At <stron class="brand">FooDog</stron>,we're more than just a dog
+            food company; we're a passionate team of animal lovers committed to
+            providing the best nutrition for your beloved pets. Founded with the
+            vision of creating premium-quality dog food that promotes health,
+            happiness, and longevity, we take pride in sourcing only the finest
+            ingredients and crafting recipes that meet the highest standards of
+            nutrition and taste. With a dedication to innovation,
+            sustainability, and customer satisfaction, we strive to be your
+            trusted partner in caring for your furry family members. Join us on
+            our journey to make a difference in the lives of dogs everywhere.
+          </p>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="container">
+          <h2 class="secondary-title tx-center">
+            Irresistible Flavors Your Dog Will Love
+          </h2>
+        </div>
+
+        <div class="container features-grid mt-xl">
+          <div class="features-text">
+            <span class="subheading">Explore Our Ingredients</span>
+            <h3 class="tertiary-title mb-sm">
+              Premium Ingredients for Optimal Nutrition
+            </h3>
+            <p class="paragraph paragraph--secondary">
+              Our dog food is crafted using only the finest, carefully selected
+              ingredients to ensure your furry friend receives the highest
+              quality nutrition. We prioritize real meats, wholesome grains, and
+              essential vitamins and minerals, providing a balanced diet for
+              your dog's overall health and well-being.
+            </p>
+          </div>
+          <div class="features-image">
+            <img
+              src="assets/feature-1.webp"
+              alt="Special dog food 1"
+              class="features-photo"
+            />
+          </div>
+        </div>
+
+        <div class="container features-grid mt-xl">
+          <div class="features-image">
+            <img
+              src="assets/feature-2.webp"
+              alt="Special dog food 2"
+              class="features-photo"
+            />
+          </div>
+          <div class="features-text">
+            <span class="subheading">Get Your Custom Plan</span>
+            <h3 class="tertiary-title mb-sm">
+              Commitment to Sustainable Practices
+            </h3>
+            <p class="paragraph paragraph--secondary">
+              We understand that every dog is unique, with different nutritional
+              needs based on factors like age, breed, and activity level. That's
+              why we offer personalized nutrition plans tailored to meet your
+              dog's specific requirements. Our team of experts is here to help
+              you choose the perfect diet to support your dog's health and
+              vitality
+            </p>
+          </div>
+        </div>
+
+        <div class="container features-grid mt-xl">
+          <div class="features-text">
+            <span class="subheading">Explore Our Sustainability Efforts</span>
+            <h3 class="tertiary-title mb-sm">
+              Tailored Nutrition Plans for Every Dog
+            </h3>
+            <p class="paragraph paragraph--secondary">
+              We're dedicated to not only nourishing your dog but also
+              preserving the environment for future generations. Our dog food is
+              produced using sustainable practices that minimize our carbon
+              footprint and promote eco-friendly sourcing and manufacturing
+              processes. When you choose our products, you're not just caring
+              for your pet; you're also supporting a healthier planet
+            </p>
+          </div>
+          <div class="features-image">
+            <img
+              src="assets/feature-3.webp"
+              alt="Special dog food 3"
+              class="features-photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="reviews">
+        <div class="container testimonials-grid">
+          <div class="testimonial">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="testimonial-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+              />
+            </svg>
+            <p class="paragraph paragraph--secondary mb-md">
+              I can't recommend FooDog enough! Their personalized nutrition
+              plans helped address my dog's dietary sensitivities, and now he's
+              thriving like never before.
+            </p>
+            <div class="testimonial-user">
+              <img
+                src="assets/user-1.webp"
+                class="testimonial-user-image"
+                alt="David Treadue"
+              />
+              <span class="testimonial-username">David Treadue</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="testimonial-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+              />
+            </svg>
+            <p class="paragraph paragraph--secondary mb-md">
+              As a veterinarian, I'm extremely impressed with the quality of
+              ingredients and nutritional balance in FooDog dog food. It's my
+              top recommendation to all my clients!
+            </p>
+            <div class="testimonial-user">
+              <img
+                src="assets/user-2.webp"
+                class="testimonial-user-image"
+                alt="David Treadue"
+              />
+              <span class="testimonial-username">Michael Patel</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="testimonial-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+              />
+            </svg>
+            <p class="paragraph paragraph--secondary mb-md">
+              My picky eater finally found his match with FooDog! He devours
+              every meal, and I've noticed a significant improvement in his
+              overall health. Thank you for such amazing products!
+            </p>
+            <div class="testimonial-user">
+              <img
+                src="assets/user-3.webp"
+                class="testimonial-user-image"
+                alt="David Treadue"
+              />
+              <span class="testimonial-username">Mark Thompsone</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="testimonial-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+              />
+            </svg>
+            <p class="paragraph paragraph--secondary mb-md">
+              After trying countless brands, I'm thrilled to have found FoodDog.
+              Their commitment to sustainability aligns with my values, and my
+              dog adores their food!,That is awesome
+            </p>
+            <div class="testimonial-user">
+              <img
+                src="assets/user-4.webp"
+                class="testimonial-user-image"
+                alt="David Treadue"
+              />
+              <span class="testimonial-username">Jonathan Martinez</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-form">
+          <form class="form" action="#">
+            <h3 class="tertiary-title">Contact Us</h3>
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-textarea" rows="4"></textarea>
+            </div>
+            <button class="btn btn--secondary">Send</button>
+          </form>
+        </div>
+        <div
+          class="contact-image"
+          role="img"
+          aria-label="A dog waiting food"
+        ></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer-about">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">About Us</a></li>
+              <li><a href="#" class="footer-link">Our Products</a></li>
+              <li><a href="#" class="footer-link">Nutrition Tips</a></li>
+              <li><a href="#" class="footer-link">FAQs</a></li>
+              <li><a href="#" class="footer-link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-address">
+            <p class="footer-heading">Contact</p>
+            <address>
+              <a href="mailto:info@yourbrand.com" class="footer-link"
+                >info@foodog.com</a
+              >
+              <a href="tel:123-456-7890" class="footer-link">123-456-7890</a>
+              <p class="footer-location">
+                1234 Dogwood Lane, Pawsington, CA, 12345, USA
+              </p>
+            </address>
+          </div>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="footer-link"
+            ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+          ></a>
+          <a href="#" class="footer-link"
+            ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+          ></a>
+          <a href="#" class="footer-link"
+            ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+          ></a>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 FooDog. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      /////////////////////////Navigation//////////////////////
+      const header = document.querySelector(".header");
+      header.addEventListener("click", function (e) {
+        if (e.target.closest(".btn-nav-menu")) {
+          header.classList.add("header-nav-open");
+        }
+
+        if (
+          e.target.closest(".btn-nav-back") ||
+          e.target.closest(".navigation-link")
+        ) {
+          header.classList.remove("header-nav-open");
+        }
+      });
+
+      ///////////////////////////////////////////////////////////Fixing flexbox gap in old safari versions///////////////////////////////////////////////////////////
+      function checkFlexGap() {
+        let flex = document.createElement("div");
+        flex.style.display = "flex";
+        flex.style.flexDirection = "column";
+        flex.style.rowGap = "1px";
+
+        flex.appendChild(document.createElement("div"));
+        flex.appendChild(document.createElement("div"));
+
+        document.body.appendChild(flex);
+        let isSupported = flex.scrollHeight === 1;
+        flex.parentNode.removeChild(flex);
+
+        if (!isSupported) document.body.classList.add("no-flexbox-gap");
+      }
+      checkFlexGap();
+    </script>
+  </body>
+</html>
